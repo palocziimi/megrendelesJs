@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: lightslategrey;
+    width: 80vw;
+    margin: 6vh auto;
+    padding: 1vw 6vw;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 1vw;
+}
+
+h2 {
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+img {
+    width: 9vw;
+    display: block;
+    margin: auto;
+    max-width: 70px;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 0.5vw;
+}
+th {
+    background-color: darkcyan;
+    color: white;
+
+    &[colspan="5"] {
+        text-align: right;
+    }
+}
+
+p{
+    font-weight: bold;
+}
+
+tr {
+    cursor: move;
+}
